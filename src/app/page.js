@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 export default function Home() {
-  const [currentYear, setCurrentYear] = useState(2024);
+  const [currentYear, setCurrentYear] = useState('');
 
   useEffect(() => {
     setCurrentYear(new Date().getFullYear());
