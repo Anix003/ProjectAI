@@ -1,0 +1,95 @@
+// tailwind.config.js - Update your Tailwind config with the custom theme
+module.exports = {
+  darkMode: "class",
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "on-secondary-fixed-variant": "#3c475a",
+        "on-secondary-fixed": "#111c2d",
+        "secondary-fixed-dim": "#bcc7de",
+        "primary-fixed-dim": "#7bd0ff",
+        "on-tertiary": "#472a00",
+        "on-primary": "#00354a",
+        "tertiary-fixed": "#ffddb8",
+        "primary-fixed": "#c4e7ff",
+        "background": "#0b1326",
+        "on-secondary-container": "#aeb9d0",
+        "error-container": "#93000a",
+        "on-error": "#690005",
+        "on-background": "#dae2fd",
+        "surface-dim": "#0b1326",
+        "surface-container-low": "#131b2e",
+        "outline-variant": "#3e484f",
+        "on-surface-variant": "#bdc8d1",
+        "surface-container-lowest": "#060e20",
+        "on-error-container": "#ffdad6",
+        "error": "#ffb4ab",
+        "surface-bright": "#31394d",
+        "on-tertiary-fixed-variant": "#653e00",
+        "on-surface": "#dae2fd",
+        "tertiary-fixed-dim": "#ffb960",
+        "surface-container-highest": "#2d3449",
+        "on-tertiary-container": "#613b00",
+        "inverse-surface": "#dae2fd",
+        "inverse-on-surface": "#283044",
+        "tertiary-container": "#f1a02b",
+        "outline": "#87929a",
+        "secondary-fixed": "#d8e3fb",
+        "inverse-primary": "#00668a",
+        "surface-tint": "#7bd0ff",
+        "tertiary": "#ffc176",
+        "primary": "#8ed5ff",
+        "primary-container": "#38bdf8",
+        "on-secondary": "#263143",
+        "surface-variant": "#2d3449",
+        "surface-container": "#171f33",
+        "on-primary-container": "#004965",
+        "surface-container-high": "#222a3d",
+        "secondary": "#bcc7de",
+        "surface": "#0b1326",
+        "secondary-container": "#3e495d",
+        "on-primary-fixed-variant": "#004c69",
+        "on-tertiary-fixed": "#2a1700",
+        "on-primary-fixed": "#001e2c"
+      },
+      borderRadius: {
+        DEFAULT: "0.25rem",
+        lg: "0.5rem",
+        xl: "0.75rem",
+        full: "9999px"
+      },
+      spacing: {
+        xs: "4px",
+        xl: "32px",
+        md: "16px",
+        sm: "8px",
+        base: "8px",
+        margin: "24px",
+        lg: "24px",
+        gutter: "16px"
+      },
+      fontFamily: {
+        "display-lg": ["Public Sans"],
+        "label-sm": ["Public Sans"],
+        "title-md": ["Public Sans"],
+        "headline-lg-mobile": ["Public Sans"],
+        "body-lg": ["Public Sans"],
+        "label-md": ["Public Sans"],
+        "headline-lg": ["Public Sans"],
+        "body-md": ["Public Sans"]
+      },
+      fontSize: {
+        "display-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.02em", fontWeight: "700" }],
+        "label-sm": ["12px", { lineHeight: "16px", fontWeight: "600" }],
+        "title-md": ["20px", { lineHeight: "28px", fontWeight: "600" }],
+        "headline-lg-mobile": ["28px", { lineHeight: "36px", fontWeight: "600" }],
+        "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+        "label-md": ["14px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "500" }],
+        "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.01em", fontWeight: "600" }],
+        "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }]
+      }
+    }
+  },
+  plugins: []
+}
